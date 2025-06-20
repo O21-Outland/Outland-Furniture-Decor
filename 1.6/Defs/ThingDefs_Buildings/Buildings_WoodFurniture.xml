@@ -1140,7 +1140,7 @@
 		<defName>Outland_WallLantern</defName>
 		<label>wall lantern</label>
 		<comps>
-			<li Class="VanillaFurnitureExpanded.CompProperties_GlowerExtended">
+			<li Class="VEF.Buildings.CompProperties_GlowerExtended">
 				<spawnGlowerInFacedCell>true</spawnGlowerInFacedCell>
 				<colorOptions>
 					<li>
@@ -1157,7 +1157,7 @@
 		<defName>Outland_WallLantern_Darklight</defName>
 		<label>wall lantern (darklight)</label>
 		<comps>
-			<li Class="VanillaFurnitureExpanded.CompProperties_GlowerExtended">
+			<li Class="VEF.Buildings.CompProperties_GlowerExtended">
 				<spawnGlowerInFacedCell>true</spawnGlowerInFacedCell>
 				<colorOptions>
 					<li>
