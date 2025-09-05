@@ -48,9 +48,10 @@
 		</researchPrerequisites>
 		<designatorDropdown>Outland_KalociteLamps</designatorDropdown>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatKalocite</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Kalocite</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -124,9 +125,10 @@
 		</researchPrerequisites>
 		<designatorDropdown>Outland_KalociteWallLamps</designatorDropdown>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatKalocite</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Kalocite</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>

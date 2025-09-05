@@ -37,9 +37,10 @@
 		</researchPrerequisites>
 		<designationCategory>Outland_Outland</designationCategory>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatDecoration</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Decoration</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -99,9 +100,10 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatDecoration</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Decoration</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -141,9 +143,10 @@
 		<costStuffCount>1</costStuffCount>
 		<designationCategory>Outland_Outland</designationCategory>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatDecoration</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Decoration</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -234,9 +237,10 @@
 		</researchPrerequisites>
 		<designationCategory>Outland_Outland</designationCategory>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatDecoration</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Decoration</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -295,9 +299,10 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatDecoration</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Decoration</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>

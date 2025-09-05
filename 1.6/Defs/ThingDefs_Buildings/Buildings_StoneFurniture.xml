@@ -55,9 +55,10 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -113,9 +114,10 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -168,9 +170,10 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -252,9 +255,10 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -327,9 +331,10 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -360,9 +365,10 @@
 			<li>Stony</li>
 		</stuffCategories>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -404,9 +410,10 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -474,9 +481,10 @@
 		</researchPrerequisites>
 		<designationCategory>Outland_Outland</designationCategory>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -513,9 +521,10 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -563,9 +572,10 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -607,9 +617,10 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -657,9 +668,10 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -708,9 +720,10 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -837,9 +850,10 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -912,9 +926,10 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -994,9 +1009,10 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -1043,9 +1059,10 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>Outland_SubCatFurnitureStone</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture (Stone)</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>
