@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ThingDef ParentName="OutlandFurnitureWithQualityBase">
+		<defName>Outland_RusticWineRack</defName>
+		<label>rustic wine rack</label>
+		<description>A shelf for storing wine or alcohol.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/WineRack</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<size>(1,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<uiIconScale>0.65</uiIconScale>
+		<uiIconOffset>(0, 0.30)</uiIconOffset>
+		<altitudeLayer>BuildingBelowTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.8</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.15</staticSunShadowHeight>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<Beauty>12</Beauty>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>3000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+    
+</Defs>

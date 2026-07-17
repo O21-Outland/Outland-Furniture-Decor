@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandArtableFurnitureBase">
+		<defName>Outland_Dresser</defName>
+		<label>rustic dresser</label>
+		<description>A dresser. Gives a small comfort bonus to all nearby beds. Placing more than one dresser near the same bed has no effect.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Dresser</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<pathCost>60</pathCost>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<staticSunShadowHeight>0.1</staticSunShadowHeight>
+		<surfaceType>Item</surfaceType>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>15</Mass>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>8</Beauty>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<Comfort>0.08</Comfort>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+				<maxDistance>6</maxDistance>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+    
+</Defs>

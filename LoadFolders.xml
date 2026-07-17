@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <loadFolders>
-	<v1.4>
-		<li>/</li>
-		<li>Common_Old</li>
-		<li>1.4</li>
-	</v1.4>
-	<v1.5>
-		<li>/</li>
-		<li>Common_Old</li>
-		<li>1.5</li>
-		<li IfModActive="Neronix17.Outland.MagesGuild">1.5/Mods/MagesGuild</li>
-	</v1.5>
 	<v1.6>
 		<li>/</li>
 		<li>Common</li>
 		<li>1.6</li>
-		<li IfModActive="Neronix17.Outland.ArcaneArts">1.6/Mods/MagesGuild</li>
 	</v1.6>
 </loadFolders>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandTableBase">
+		<defName>Outland_1x2Table</defName>
+		<label>rustic table (1x2)</label>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/TableSmallRect</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>30</Beauty>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<size>(1,2)</size>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<rotatable>true</rotatable>
+		<comps>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+			<li Class="TabulaRasa.CompProperties_ExtraGraphics">
+				<extraGraphics>
+					<li>
+						<label>Default</label>
+						<path>Outland/Buildings/Furniture/TableSmallRect</path>
+					</li>
+					<li>
+						<label>Red Cloth</label>
+						<path>Outland/Buildings/Furniture/TableSmallRect_ClothRed</path>
+					</li>
+					<li>
+						<label>Blue Cloth</label>
+						<path>Outland/Buildings/Furniture/TableSmallRect_ClothBlue</path>
+					</li>
+					<li>
+						<label>Green Cloth</label>
+						<path>Outland/Buildings/Furniture/TableSmallRect_ClothGreen</path>
+					</li>
+					<li>
+						<label>Purple Cloth</label>
+						<path>Outland/Buildings/Furniture/TableSmallRect_ClothPurple</path>
+					</li>
+				</extraGraphics>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+    
+</Defs>

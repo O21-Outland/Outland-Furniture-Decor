@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandFurnitureBase">
+		<defName>Outland_Bookshelf</defName>
+		<label>rustic bookshelf</label>
+		<description>Increases research speed when placed near research table.</description>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Bookshelf</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<drawSize>3</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<size>(1,1)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<uiIconScale>0.65</uiIconScale>
+		<uiIconOffset>(0, 0.30)</uiIconOffset>
+		<altitudeLayer>BuildingBelowTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.15</staticSunShadowHeight>
+		<fillPercent>0.8</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>7500</WorkToBuild>
+			<Mass>70</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>15</Beauty>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.075</ResearchSpeedFactor>
+				</statOffsets>
+				<maxDistance>5</maxDistance>
+				<maxSimultaneous>2</maxSimultaneous>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+    
+</Defs>

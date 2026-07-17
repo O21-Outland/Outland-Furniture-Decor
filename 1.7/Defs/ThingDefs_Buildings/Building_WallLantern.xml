@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<DesignatorDropdownGroupDef>
+		<defName>Outland_OilWallLanterns</defName>
+		<label>wall lanterns</label>
+	</DesignatorDropdownGroupDef>
+
+	<ThingDef Name="OutlandOilWallLanternBase" ParentName="OutlandWallLightBase" Abstract="True">
+		<description>A wall mounted lighting fixture.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/WallOilLamp</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
+			<drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+			<drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+			<damageData>
+			  <enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Outland/Buildings/Furniture/WallOilLamp_north</uiIconPath>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Mass>2</Mass>
+		</statBases>
+		<costList>
+			<Steel>2</Steel>
+			<WoodLog>3</WoodLog>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>2.0</fuelConsumptionRate>
+				<fuelCapacity>10.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<designatorDropdown>Outland_OilWallLanterns</designatorDropdown>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="OutlandOilWallLanternBase">
+		<defName>Outland_RusticWallLantern</defName>
+		<label>rustic wall lantern</label>
+		<comps>
+			<li Class="VEF.Buildings.CompProperties_GlowerExtended">
+				<spawnGlowerInFacedCell>true</spawnGlowerInFacedCell>
+				<colorOptions>
+					<li>
+						<glowRadius>7</glowRadius>
+						<glowColor>(252, 187, 113)</glowColor>
+						<colorLabel>normal</colorLabel>
+					</li>
+				</colorOptions>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="OutlandOilWallLanternBase" MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>Outland_RusticWallLantern_Darklight</defName>
+		<label>rustic wall lantern (darklight)</label>
+		<comps>
+			<li Class="VEF.Buildings.CompProperties_GlowerExtended">
+				<spawnGlowerInFacedCell>true</spawnGlowerInFacedCell>
+				<colorOptions>
+					<li>
+						<glowRadius>7</glowRadius>
+						<glowColor>(78, 226, 229)</glowColor>
+						<colorLabel>darklight</colorLabel>
+					</li>
+				</colorOptions>
+			</li>
+		</comps>
+	</ThingDef>
+    
+</Defs>

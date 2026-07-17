@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/DesignationCategoryDef[defName="Outland_Outland"]</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+                <DesignationCategoryDef>
+                    <defName>Outland_Outland</defName>
+                    <label>Outland</label>
+                    <order>500</order>
+                    <specialDesignatorClasses>
+                        <li>Designator_Cancel</li>
+                        <li>Designator_Deconstruct</li>
+                    </specialDesignatorClasses>
+                    <modExtensions>
+                        <li Class="TabulaRasa.DefModExt_SubcategoryDisplay" />
+                    </modExtensions>
+                </DesignationCategoryDef>
+            </value>
+        </nomatch>
+    </Operation>
+
+</Patch>

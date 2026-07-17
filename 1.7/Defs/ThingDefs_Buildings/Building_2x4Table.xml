@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ThingDef ParentName="OutlandTableBase">
+		<defName>Outland_2x4Table</defName>
+		<label>rustic table (2x4)</label>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/TableMedRect</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<drawSize>(6,6)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>8000</WorkToBuild>
+			<Mass>20</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>2</Beauty>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<size>(2,4)</size>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>180</costStuffCount>
+		<rotatable>true</rotatable>
+		<comps>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+    
+</Defs>

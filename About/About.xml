@@ -2,25 +2,14 @@
 <ModMetaData>
 	<name>Outland - Furniture &amp; Decor</name>
 	<packageId>Neronix17.Outland.FurnitureAndDecor</packageId>
-	<modIconPath IgnoreIfNoMatchingField="True">Outland/ModIcon</modIconPath>
 	<description>Standalone module for Outland, adding sets of furniture and decor.</description>
 	<author>Neronix17</author>
 	<url>https://www.patreon.com/neronix17</url>
 	<supportedVersions>
-		<li>1.4</li>
-		<li>1.5</li>
-		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
-	<modDependencies>
-		<li>
-			<packageId>Neronix17.Outland.Core</packageId>
-			<displayName>Outland - Core</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2755501685</steamWorkshopUrl>
-		</li>
-	</modDependencies>
 	<loadAfter>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>neronix17.toolbox</li>
-		<li>Neronix17.Outland.Core</li>
 	</loadAfter>
 </ModMetaData>

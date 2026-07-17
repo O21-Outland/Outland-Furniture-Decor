@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ThingDef ParentName="OutlandTableBase">
+		<defName>Outland_1x1Table</defName>
+		<label>rustic table (1x1)</label>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/TableSmallSquare</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<drawRotated>false</drawRotated>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<uiIconScale>0.7</uiIconScale>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToBuild>750</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>5</Beauty>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+    
+</Defs>

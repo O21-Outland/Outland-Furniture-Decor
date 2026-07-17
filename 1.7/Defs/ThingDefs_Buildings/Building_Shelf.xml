@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="OutlandShelfBase">
+		<defName>Outland_RusticShelf</defName>
+		<label>rustic shelf</label>
+		<description>A shelf for storing miscellaneous items. Items stored in this will not deteriorate, even if outside.</description>
+		<thingClass>Building_Storage</thingClass>
+		<graphicData>
+			<texPath>Outland/Buildings/Furniture/Shelf</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>8</Mass>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<costStuffCount>45</costStuffCount>
+		<stuffCategories Inherit="False">
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Furniture</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+    
+</Defs>
