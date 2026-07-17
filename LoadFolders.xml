@@ -15,6 +15,6 @@
 		<li>/</li>
 		<li>Common</li>
 		<li>1.6</li>
-		<li IfModActive="Neronix17.Outland.MagesGuild">1.6/Mods/MagesGuild</li>
+		<li IfModActive="Neronix17.Outland.ArcaneArts">1.6/Mods/MagesGuild</li>
 	</v1.6>
 </loadFolders>
